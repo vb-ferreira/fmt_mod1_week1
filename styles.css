@@ -1,0 +1,32 @@
+html {
+  background-color: papayawhip;
+  color: #010101;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.3em;
+  max-width: 40rem;
+  padding: 2rem;
+  margin: auto;
+  line-height: 1.5rem;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+summary span {
+  margin-left: 0.5rem;
+}
+
+details > summary {
+  list-style-type: '▶️';
+}
+
+details[open] > summary {
+  list-style-type: '🔽';
+}
